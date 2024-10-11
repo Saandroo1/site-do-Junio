@@ -70,11 +70,11 @@ nav ul li a:hover {
   background-image: url(img/baner2.jpeg);
   background-size: cover;
   background-position: center;
-  height: 440px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(255, 248, 248);
+  color: rgb(243, 238, 238);
   text-shadow: 2px 2px 5px black;
 }
 
@@ -84,22 +84,29 @@ nav ul li a:hover {
 }
 
 .intro {
-  padding: 100px;
+  padding: 1px;
   display: block;
   text-align: center;
-  background-color: #fefefe;
+  background-color: #2b2626;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* logo tipo*/
+.logotipo{
+
+  max-width: 900px;
+  height: auto;
 }
 
 .intro h3 {
   font-size: 2rem;
-  color: #514242;
+  color:#e6dddd ;
   margin-bottom: 33px;
 }
 
 .intro h4 {
   font-size: 1.1rem;
-  color: #161313;
+  color: #aea4a4;
   max-width: 500x;
   padding-left: 4px
 
