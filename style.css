@@ -1,14 +1,29 @@
 *{
-  margin: -1;
-  padding: -1;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  
 }
 
+@media (max-width:768px ) {
+ body{
+flex-direction: column;
+ }
+ }
+ 
+  
+
+
+
+
 body {
+  font-family: 'roboto',sans-serif;
   background-color: #f4ecec;
   color: #0c1011;
-  line-height: 1.6;
+  line-height: 0.9;
+  display: inline-block;
+  flex-direction:row;
+  justify-content: space-between;
 }
 .titulo1 {
   background-color: #000000;
@@ -84,7 +99,7 @@ nav ul li a:hover {
 }
 
 .intro {
-  padding: 1px;
+  padding:1%;
   display: block;
   text-align: center;
   background-color: #2b2626;
@@ -97,10 +112,9 @@ nav ul li a:hover {
   max-width: 900px;
   height: auto;
 }
-
 .intro h3 {
   font-size: 2rem;
-  color:#e6dddd ;
+  color: #e6dddd;
   margin-bottom: 33px;
 }
 
@@ -204,6 +218,8 @@ nav ul li a:hover {
   background-color: #c4a6a6;
 
 }
+
+
 /* video CSS para melhorar a área do vídeo */
 .video-container {
   display: flex;
@@ -231,13 +247,13 @@ video {
 
 .textodescritivovideo{
   font-size: 18px;
-  color:#000000;
+  color: #732e75;
   line-height: 1.6;
 }
 /*fim */
- 
 
 
+/* estilizando area de contatos*/
 footer{
     display: flex;
     justify-content: center;
@@ -247,6 +263,7 @@ footer{
     margin-bottom: -20px;
 
 }
+/*fim do footer*/
 
 footer img{
     width: 45px;
@@ -732,20 +749,4 @@ h4{
   margin: auto;
   margin: 222px;
   
-  
-
-
-
 }
-/*estilizando caixa de email*/
-.contatoemail{
-align-items: center;
-margin-left: 6%;
-}
-/* estlizando npme contato*/
-.contatoemail h3{
-  color: #3f3b3b;
-  margin-left: -3%;
-  
-}
-
