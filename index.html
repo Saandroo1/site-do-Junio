@@ -6,6 +6,7 @@
   <title>Design Art Junior Dlm</title>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Carregando jQuery -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="search.p">
 
 </head>
 <body>
@@ -42,10 +43,11 @@
             <span class="hamburger-label">Menu</span>
           </button>
           
-          <form id="masthead-search">
-            <input type="search" name="s" aria-labelledby="search-label" placeholder="Search&hellip;" class="draw">
-            <button type="submit">&rarr;</button>
-          </form>  
+          <form id="masthead-search" action="search.php" method="GET">
+            <input type="search" name="s" aria-labelledby="search-label" placeholder="Buscar…" class="draw">
+            <button type="submit">→</button>
+          </form>
+          
 
           <!--fotos dentro do menu-->
           <nav id="site-nav" role="navigation">
@@ -81,9 +83,9 @@
         </div>
       </header>
     </div>
-    <!--java para funciona menu-->
+    
 
-   
+
   </nav>
 
       <!-- FOTO DA ARVORE-->
@@ -95,7 +97,7 @@
        <!--LOGO DO JUNIO-->
   <section class="intro" id="about">
     <h3></h3>
-    <img class="logotipo" src="img/logocorcerta.jpg" alt="logo do studio poesia">
+    <img class="logotipo" src="img/logocorcerta.jpg" alt="im">
 
     <h4>
       <br>Junior Dlm um jovem designer inovador que transforma galhos caídos nas ruas em peças únicas de arte e decoração.
@@ -118,7 +120,7 @@
      <img src="img/foto3.webp" alt="Imagem"> 
     </a>
       <h4>Luminária</h4>
-      <p> uma vez um pedaço de galho</p>
+      <p>descriçao</p>
     </div>
 
 
@@ -130,9 +132,9 @@
        <p>descriçao</p>
     </div>
 
-<!--
+   <!--
     <div class="item">
-      <a href="img/foto4.avif">
+      <a href="img/foto3.webp">
       <img src="img/foto4.avif" alt="Peça 3">
     </a>
       <h4>luminaria</h4>
@@ -141,19 +143,20 @@
 
 
     <div class="item">
-      <a href="img/escultura.avif">
-      <img src="img/escultura.avif" alt=Peça 4">
+      <a href="img/foto3.webp">
+      <img src="img/hc1-0083.jpg"Peça 4">
       </a>
-      <h4>Luminária</h4>
+      <h4>Luminária tupi</h4>
       <p>descriçao</p>
     </div>
-    -->
+  -->
   </section>
 
      <!--AREA DO VIDEO-->
+
      <div class="video-container">
       <video width="640" height="480" controls>
-          <source src="img/video2.webm" type="video/webm">
+          <source src="" type="video/webm">
           <source src="img/videonovo.mp4" type="video/mp4">
           Seu navegador não suporta a reprodução de vídeos.
       </video>
@@ -161,29 +164,13 @@
       <div class="texto">
           <h3 class="titulovideo">Está vindo novidades por aí, fique ligado!</h3>
           <h4 class="textodescritivovideo">
-Ao cair da noite, uma presença sutil começa a se revelar. "Luz em Suspensão" não é apenas uma luminária – é uma peça que flutua entre o tangível e o imaterial, suspensa no limiar da natureza e da criação humana. Um galho de cipreste, forjado pelo tempo e escolhido por sua forma singular, se estende no ar como se estivesse suspenso por forças invisíveis, sustentando em seu centro uma luz que parece emergir do próprio coração da madeira.
-
-Os fios de cobre se entrelaçam de maneira quase imperceptível, como se se enraizassem no galho, alimentando a fonte de luz que, por sua vez, não revela sua verdadeira intensidade de imediato. O vidro soprado à mão envolve a lâmpada, distorcendo a luz em formas orgânicas que parecem vibrar com o mesmo pulso de vida da natureza. Cada curva e fissura no vidro, cada imperfeição do galho, guarda um segredo, e a sensação de que algo está para acontecer permanece constante.
-
-Há uma tensão no ar – será que a luz é eterna ou efêmera? Essa luminária guarda uma história que ainda não foi completamente desvendada, e talvez, quem a observar, tenha a chance de descobrir o que está à espreita entre sombra e luz.
-
-
----
-
-Resumo:
-“Luz em Suspensão” é uma luminária escultural criada a partir de um galho natural de cipreste, fios de cobre e vidro soprado à mão. A peça equilibra a natureza orgânica com elementos industriais, criando uma atmosfera de mistério e iminência, onde a luz parece emergir de dentro da própria madeira, sugerindo uma tensão entre o efêmero e o eterno.
-
-
----
-
-Gostou desse formato?
-
-
+              As árvores são essenciais para a vida na Terra, desempenhando um papel crucial na purificação do ar, ao absorver dióxido de carbono (CO₂) e liberar oxigênio. Elas ajudam a combater as mudanças climáticas e protegem o solo contra a erosão com suas raízes. Além disso, promovem a biodiversidade, fornecendo habitats para muitas espécies, e regulam o ciclo da água, preservando mananciais. As árvores também oferecem benefícios econômicos e sociais, como fornecimento de recursos e melhoria da qualidade de vida em áreas urbanas. Preservar as árvores é vital para a sustentabilidade do planeta.
           </h4>
       </div>
   </div>
-  
-     
+  <!--fim do video-->
+
+      
   <footer>
     <a href="mailto:sandroempreendendo@gmail.com?subject=Assunto%20do%20E-mail&body=Corpo%20do%20e-mail">
       <img src="img/o-email.png" alt="Logotipo do E-mail" style="width:100px;height:100px;">
@@ -195,12 +182,13 @@ Gostou desse formato?
     <a href="https://w.app/DesignarteJuniorDlm" target="_blank" rel="noopener noreferrer"> 
       <img src="img/logowatsapnovo.png" alt="Logotipo do watzap" style="width:100px;height:100px;">
         </a>
-   
   </footer>
 
 
 <!-- Aqui você coloca o seu código JavaScript -->
-       <script src="js/main.js"></script>
+
+
+<script src="js/main.js"></script>
 
 </body>
 
